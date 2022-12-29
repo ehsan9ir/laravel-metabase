@@ -1,0 +1,28 @@
+{
+    "name": "ehsan9/metabase-laravel",
+    "description": "connect to the Metabase web service in Laravel project and have the output of reports",
+    "autoload": {
+        "psr-4": {
+            "Ehsan9\\MetabaseLaravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ehsan Ranjbari",
+            "email": "h.ehsan24@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ehsan9\\MetabaseLaravel\\MetabaseServiceProvider"
+            ],
+            "aliases": {
+                "MetabaseApi":"Ehsan9\\MetabaseLaravel\\MetabaseApi"
+            }
+        }
+    },
+    "require": {
+        "illuminate/support": ">=v6.6.2"
+    }
+}
