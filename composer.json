@@ -6,6 +6,7 @@
             "Ehsan9\\MetabaseLaravel\\": "src/"
         }
     },
+    "license":"MIT",
     "authors": [
         {
             "name": "Ehsan Ranjbari",
